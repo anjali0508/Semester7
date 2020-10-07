@@ -1,0 +1,11 @@
+buff<-c(10,1,37,5,12)
+garden<-c(8,3,9,6,4)
+red<-c(18,9,12,4,5)
+carder<-c(8,27,6,32,23)
+honey<-c(12,13,16,9,10)
+df<-data.frame(buff,garden,red,carder,honey)
+df
+row.names(df)<-c("Thistle","Vipers","Golden","Rain","Yellow")
+df
+View(df)
+str(df)
