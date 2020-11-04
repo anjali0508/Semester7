@@ -1,6 +1,3 @@
-dotchart(mtcars$mpg, labels = row.names(mtcars),cex = 0.6, xlab = "mpg")
-
-
 library(gcookbook)
 library(ggplot2)
 df = cabbage_exp
